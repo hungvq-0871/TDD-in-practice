@@ -4,7 +4,6 @@ import { ThemeProvider } from 'styled-components';
 import theme from './styles/theme'
 
 import App from 'containers/App';
-
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(

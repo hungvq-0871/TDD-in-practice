@@ -11,6 +11,7 @@ function TaskTable({ data }) {
         {data.map(content => (
           <tr key={content.id}>
             <Td
+              checkboxId={content.id}
               title={content.title}
               userName={content.username}
               time={content.time}
