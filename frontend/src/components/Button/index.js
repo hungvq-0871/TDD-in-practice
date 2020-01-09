@@ -1,32 +1,25 @@
 import React from 'react';
-import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
-const Button = styled(({
-  bdColor,
-  color,
-  bgColor,
+import ButtonStyle from './index.style';
+
+function Button({
+  children,
   className,
+  onClick,
   ...rest
-}) => <button className={`btn ${className}`} {...rest} />)`
-  ${({
-  theme,
-  bdColor,
-  color,
-  bgColor
-}) => (`
-      &.btn {
-        border-color: ${bdColor || theme.grey1};
-        color: ${color || theme.grey1};
-        background-color: ${bgColor || theme.white};
-        box-shadow: none!important;
+}) {
+  return (
+    <ButtonStyle className={`btn ${className}`} onClick={onClick} {...rest}>
+      {children}
+    </ButtonStyle>
+  )
+}
 
-        &:hover,
-        &:active,
-        &:focus {
-          color: ${color || theme.grey1};
-        }
-      }
-  `)}
-`;
+Button.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string,
+  onClick: PropTypes.func.isRequired
+}
 
 export default Button;
