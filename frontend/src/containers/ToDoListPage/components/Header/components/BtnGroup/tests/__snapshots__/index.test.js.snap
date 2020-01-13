@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test how "BtnGroup" is rendered it should match it's snapshot 1`] = `
+<div
+  class="sc-bwzfXH SfLdw btn-group"
+  role="group"
+>
+  <button
+    class="sc-bdVaJa fiYuhs btn search-btn"
+  >
+    Search
+  </button>
+  <button
+    class="sc-bdVaJa fiYuhs btn export-btn"
+  >
+    Export
+  </button>
+  <button
+    class="sc-bdVaJa fiYuhs btn share-btn"
+  >
+    Share
+  </button>
+</div>
+`;
