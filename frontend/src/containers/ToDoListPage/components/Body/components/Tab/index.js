@@ -1,44 +1,40 @@
 import React, { useState } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
+import PropTypes from 'prop-types';
+import { TabContent, TabPane, Nav } from 'reactstrap';
 
 import TaskTable from 'components/TaskTable';
-import TabContentHeader from './components/TabContentHeader/index'
+import TabContentHeader from './components/TabContentHeader/index';
+import TabItem from './components/TabItem';
 import TabStyle from './index.style';
 
 import { data } from './constants';
 
-function Tab() {
-  const [activeTab, setActiveTab] = useState('1');
+function Tab({ dueToday, closeToday }) {
+  const [activeTabId, setActiveTabId] = useState('1');
 
-  const toggle = tab => {
-    if (activeTab !== tab) setActiveTab(tab);
+  const toggle = tabId => {
+    if (activeTabId !== tabId) setActiveTabId(tabId);
   }
-
-  const classnames = active => active ? 'active' : '';
 
   return (
     <TabStyle>
       <Nav tabs>
-        <NavItem>
-          <NavLink
-            className={classnames(activeTab === '1')}
-            onClick={() => toggle('1')}
-          >
-            Work
-          </NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink
-            className={classnames(activeTab === '2')}
-            onClick={() => toggle('2')}
-          >
-            Personal
-          </NavLink>
-        </NavItem>
+        <TabItem
+          tabId="1"
+          activeTabId={activeTabId}
+          content="Work"
+          onClick={toggle}
+        />
+        <TabItem
+          tabId="2"
+          activeTabId={activeTabId}
+          content="Personal"
+          onClick={toggle}
+        />
       </Nav>
-      <TabContent activeTab={activeTab}>
+      <TabContent activeTab={activeTabId}>
         <TabPane tabId="1">
-          <TabContentHeader />
+          <TabContentHeader dueToday={dueToday} closeToday={closeToday} />
           <TaskTable data={data} />
         </TabPane>
       </TabContent>
@@ -47,6 +43,8 @@ function Tab() {
 }
 
 Tab.propTypes = {
+  dueToday: PropTypes.number.isRequired,
+  closeToday: PropTypes.number.isRequired
 }
 
 export default Tab;

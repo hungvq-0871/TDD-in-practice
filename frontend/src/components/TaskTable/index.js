@@ -15,6 +15,7 @@ function TaskTable({ data }) {
               title={content.title}
               userName={content.username}
               time={content.time}
+              onChange={() => { }}
             />
           </tr>
         ))}

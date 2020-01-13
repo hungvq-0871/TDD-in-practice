@@ -1,25 +1,19 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Badge as BtBadge } from "reactstrap";
+import PropTypes from 'prop-types'
 
-const Badge = styled(({ ...rest }) => <BtBadge pill {...rest} />)`
-  ${({ theme }) => (`
-    &.green {
-      background-color: ${theme.green2};
-    }
+import BadgeStyle from './index.style'
 
-    &.purple {
-      background-color: ${theme.purple1};
-    }
+function Badge({ children, color, ...rest }) {
+  return (
+    <BadgeStyle color={color} {...rest}>
+      {children}
+    </BadgeStyle>
+  )
+}
 
-    &.red {
-      background-color: ${theme.pink1}
-    }
-
-    &.blue {
-      background-color: ${theme.blue3}
-    }
-  `)}
-`;
+Badge.propTypes = {
+  children: PropTypes.node,
+  color: PropTypes.oneOf(['green', 'purple', 'red', 'blue']),
+}
 
 export default Badge;

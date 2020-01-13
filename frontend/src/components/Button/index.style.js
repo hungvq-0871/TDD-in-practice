@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 
-const Button = styled(({
+const ButtonStyle = styled(({
   bdColor,
   color,
   bgColor,
@@ -28,4 +28,4 @@ const Button = styled(({
   `)}
 `;
 
-export default Button;
+export default ButtonStyle;

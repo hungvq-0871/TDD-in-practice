@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test how "Header" is rendered it should match it's snapshot 1`] = `
+<div
+  class="sc-htpNat hqmgw"
+>
+  <h3>
+    My Tasks
+  </h3>
+  <div
+    class="right"
+  >
+    <div
+      class="sc-bwzfXH SfLdw btn-group"
+      role="group"
+    >
+      <button
+        class="sc-bdVaJa fiYuhs btn search-btn"
+      >
+        Search
+      </button>
+      <button
+        class="sc-bdVaJa fiYuhs btn export-btn"
+      >
+        Export
+      </button>
+      <button
+        class="sc-bdVaJa fiYuhs btn share-btn"
+      >
+        Share
+      </button>
+    </div>
+    <button
+      class="sc-bdVaJa iHgvgu btn undefined"
+    >
+      New Task
+    </button>
+  </div>
+</div>
+`;

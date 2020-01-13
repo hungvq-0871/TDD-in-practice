@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test how "TabContentHeader" is rendered the "Close Today(...)" label should display the number of tasks closed today correctly 1`] = `
+<div
+  class="sc-bdVaJa ePtFUd"
+>
+  <span>
+    Due Today (
+    <span
+      class="due-today-counter"
+    >
+      2
+    </span>
+    )
+  </span>
+  <span
+    class="close-day"
+  >
+    Close Today (
+    <span
+      class="close-today-counter"
+    >
+      3
+    </span>
+    )
+  </span>
+</div>
+`;

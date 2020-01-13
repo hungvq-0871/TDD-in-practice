@@ -1,14 +1,11 @@
-import styled from 'styled-components';
+import React from 'react';
 
-const StatusTick = styled.span`
-  ${({ theme, bgColor }) => (`
-    display: block;
-    width: 10px;
-    height: 10px;
-    margin-top: 6px;
-    border-radius: 100%;
-    background-color: ${bgColor || theme.green1};
-  `)}
-`;
+import StatusTickStyle from './index.style';
+
+function StatusTick({ ...rest }) {
+  return (
+    <StatusTickStyle {...rest} />
+  )
+}
 
 export default StatusTick;

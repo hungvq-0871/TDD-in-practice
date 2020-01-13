@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test how "Td" is rendered it should match it's snapshot 1`] = `
+<td
+  class="sc-bwzfXH XJyym"
+>
+  <span
+    class="sc-htpNat lgZCgg"
+  />
+  <div
+    class="custom-control custom-checkbox"
+  >
+    <input
+      class="custom-control-input"
+      id="1"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="custom-control-label"
+      for="1"
+    />
+  </div>
+  <div
+    class="detail-info"
+  >
+    <h3
+      class="title"
+    >
+      title
+    </h3>
+    <div
+      class="created-info"
+    >
+      <div
+        class="left"
+      >
+        <span
+          class="created-by"
+        >
+          name
+        </span>
+        <span
+          class="sc-htpNat lgZCgg tick"
+        />
+        <time
+          class="created-at"
+        >
+          10 PM
+        </time>
+      </div>
+      <div
+        class="right"
+      >
+        <span
+          class="sc-bdVaJa hntilx badge badge-green badge-pill"
+        >
+          Demo
+        </span>
+        <span
+          class="sc-bdVaJa hntilx badge badge-blue badge-pill"
+        >
+          Meeting
+        </span>
+        <span
+          class="sc-bdVaJa hntilx badge badge-purple badge-pill"
+        >
+          Chil
+        </span>
+        <span
+          class="sc-bdVaJa hntilx badge badge-red badge-pill"
+        >
+          Abcd
+        </span>
+      </div>
+    </div>
+  </div>
+</td>
+`;

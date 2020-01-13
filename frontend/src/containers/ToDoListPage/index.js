@@ -7,7 +7,12 @@ import BackGround from './components/BackGround';
 function ToDoListPage() {
   return (
     <BackGround>
-      <Header />
+      <Header
+        onSearchClick={() => { }}
+        onExportClick={() => { }}
+        onShareClick={() => { }}
+        onCreateNewTask={() => { }}
+      />
       <Body />
     </BackGround>
   )

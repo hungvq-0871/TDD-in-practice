@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test how "TabItem" is rendered it should match it's snapshot 1`] = `
+<li
+  class="nav-item"
+>
+  <a
+    class="active nav-link"
+  >
+    Work
+  </a>
+</li>
+`;

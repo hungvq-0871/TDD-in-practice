@@ -10,25 +10,26 @@ function Td({
   checkboxId,
   title,
   userName,
-  time
+  time,
+  onChange,
 }) {
   return (
     <TdStyle>
       <StatusTick />
-      <Checkbox id={checkboxId} />
+      <Checkbox id={checkboxId} onChange={onChange} />
       <div className="detail-info">
-        <h3>{title}</h3>
+        <h3 className="title">{title}</h3>
         <div className="created-info">
           <div className="left">
-            <span>{userName}</span>
+            <span className="created-by">{userName}</span>
             <StatusTick className="tick" />
-            <time>{time}</time>
+            <time className="created-at">{time}</time>
           </div>
           <div className="right">
-            <Badge className="green" pill>Demo</Badge>
-            <Badge className="blue" pill>Meeting</Badge>
-            <Badge className="purple" pill>Chil</Badge>
-            <Badge className="red" pill>Abcd</Badge>
+            <Badge color="green">Demo</Badge>
+            <Badge color="blue">Meeting</Badge>
+            <Badge color="purple">Chil</Badge>
+            <Badge color="red">Abcd</Badge>
           </div>
         </div>
       </div>
@@ -43,7 +44,8 @@ Td.propTypes = {
   ]).isRequired,
   title: PropTypes.string.isRequired,
   userName: PropTypes.string.isRequired,
-  time: PropTypes.string.isRequired
+  time: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired
 }
 
 export default Td;

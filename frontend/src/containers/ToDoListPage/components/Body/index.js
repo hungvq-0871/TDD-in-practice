@@ -1,9 +1,9 @@
 import React from 'react';
-import Tab from './components/Tab'
+import Tab from './components/Tab';
 
 function Body() {
   return (
-    <Tab />
+    <Tab dueToday={2} closeToday={3} />
   )
 }
 
