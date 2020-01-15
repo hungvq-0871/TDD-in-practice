@@ -1,5 +1,19 @@
 import React from 'react';
+import { render } from '@testing-library/react';
+import { Router } from 'react-router-dom';
+import { createMemoryHistory } from "history";
 
-it('should not perform any logs via console.log()', () => {
-  expect(1 + 1).toBe(2);
+import App from '../index';
+
+describe(`test how "App" is rendered`, () => {
+  test(`...`, () => {
+    const history = createMemoryHistory();
+    const { container } = render(
+      <Router history={history}>
+        <App />
+      </Router>
+    );
+
+    expect(history.location.pathname).toBe('/');
+  });
 });

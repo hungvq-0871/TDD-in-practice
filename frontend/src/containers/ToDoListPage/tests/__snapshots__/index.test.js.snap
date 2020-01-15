@@ -1,0 +1,857 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test functions around "ToDoListPage" it should match it's snapshot 1`] = `
+<div
+  class="sc-dnqmqq cZVsQj"
+>
+  <div
+    class="upper-part"
+  />
+  <div
+    class="body"
+  >
+    <div
+      class="sc-htpNat hqmgw"
+    >
+      <h3>
+        My Tasks
+      </h3>
+      <div
+        class="right"
+      >
+        <div
+          class="sc-bwzfXH SfLdw btn-group"
+          role="group"
+        >
+          <button
+            class="sc-bdVaJa fiYuhs btn search-btn"
+          >
+            <i
+              class="fas fa-search"
+            />
+          </button>
+          <button
+            class="sc-bdVaJa fiYuhs btn export-btn"
+          >
+            <i
+              class="fas fa-file-upload"
+            />
+          </button>
+          <button
+            class="sc-bdVaJa fiYuhs btn share-btn"
+          >
+            <i
+              class="fas fa-share-square"
+            />
+          </button>
+        </div>
+        <button
+          class="sc-bdVaJa iHgvgu btn undefined"
+        >
+          New Task
+        </button>
+      </div>
+    </div>
+    <div
+      class="sc-htoDjs dzOPHb"
+    >
+      <ul
+        class="nav nav-tabs"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            class="active nav-link"
+          >
+            Work
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+          >
+            Personal
+          </a>
+        </li>
+      </ul>
+      <div
+        class="tab-content"
+      >
+        <div
+          class="tab-pane active"
+        >
+          <div
+            class="sc-gzVnrw dpQKOr"
+          >
+            <span>
+              Due Today (
+              <span
+                class="due-today-counter"
+              >
+                2
+              </span>
+              )
+            </span>
+            <span
+              class="close-day"
+            >
+              Close Today (
+              <span
+                class="close-today-counter"
+              >
+                3
+              </span>
+              )
+            </span>
+          </div>
+          <table
+            class="sc-bZQynM dpqqRZ table"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="sc-ifAKCX fLicRB"
+                >
+                  <span
+                    class="sc-EHOje BThVl"
+                  />
+                  <div
+                    class="custom-control custom-checkbox"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="1"
+                      type="checkbox"
+                      value=""
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="1"
+                    />
+                  </div>
+                  <div
+                    class="detail-info"
+                  >
+                    <h3
+                      class="title"
+                    >
+                      Send site plans and building floor plan brochure
+                    </h3>
+                    <div
+                      class="created-info"
+                    >
+                      <div
+                        class="left"
+                      >
+                        <span
+                          class="created-by"
+                        >
+                          Chinmay Sarasvati
+                        </span>
+                        <span
+                          class="sc-EHOje BThVl tick"
+                        />
+                        <time
+                          class="created-at"
+                        >
+                          11 AM
+                        </time>
+                      </div>
+                      <div
+                        class="right"
+                      >
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-green badge-pill"
+                        >
+                          Demo
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-blue badge-pill"
+                        >
+                          Meeting
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-purple badge-pill"
+                        >
+                          Chil
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-red badge-pill"
+                        >
+                          Abcd
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="sc-ifAKCX fLicRB"
+                >
+                  <span
+                    class="sc-EHOje BThVl"
+                  />
+                  <div
+                    class="custom-control custom-checkbox"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="2"
+                      type="checkbox"
+                      value=""
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="2"
+                    />
+                  </div>
+                  <div
+                    class="detail-info"
+                  >
+                    <h3
+                      class="title"
+                    >
+                      Send site plans and building floor plan brochure
+                    </h3>
+                    <div
+                      class="created-info"
+                    >
+                      <div
+                        class="left"
+                      >
+                        <span
+                          class="created-by"
+                        >
+                          Chinmay Sarasvati
+                        </span>
+                        <span
+                          class="sc-EHOje BThVl tick"
+                        />
+                        <time
+                          class="created-at"
+                        >
+                          11 AM
+                        </time>
+                      </div>
+                      <div
+                        class="right"
+                      >
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-green badge-pill"
+                        >
+                          Demo
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-blue badge-pill"
+                        >
+                          Meeting
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-purple badge-pill"
+                        >
+                          Chil
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-red badge-pill"
+                        >
+                          Abcd
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="sc-ifAKCX fLicRB"
+                >
+                  <span
+                    class="sc-EHOje BThVl"
+                  />
+                  <div
+                    class="custom-control custom-checkbox"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="3"
+                      type="checkbox"
+                      value=""
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="3"
+                    />
+                  </div>
+                  <div
+                    class="detail-info"
+                  >
+                    <h3
+                      class="title"
+                    >
+                      Send site plans and building floor plan brochure
+                    </h3>
+                    <div
+                      class="created-info"
+                    >
+                      <div
+                        class="left"
+                      >
+                        <span
+                          class="created-by"
+                        >
+                          Chinmay Sarasvati
+                        </span>
+                        <span
+                          class="sc-EHOje BThVl tick"
+                        />
+                        <time
+                          class="created-at"
+                        >
+                          11 AM
+                        </time>
+                      </div>
+                      <div
+                        class="right"
+                      >
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-green badge-pill"
+                        >
+                          Demo
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-blue badge-pill"
+                        >
+                          Meeting
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-purple badge-pill"
+                        >
+                          Chil
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-red badge-pill"
+                        >
+                          Abcd
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="sc-ifAKCX fLicRB"
+                >
+                  <span
+                    class="sc-EHOje BThVl"
+                  />
+                  <div
+                    class="custom-control custom-checkbox"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="4"
+                      type="checkbox"
+                      value=""
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="4"
+                    />
+                  </div>
+                  <div
+                    class="detail-info"
+                  >
+                    <h3
+                      class="title"
+                    >
+                      Send site plans and building floor plan brochure
+                    </h3>
+                    <div
+                      class="created-info"
+                    >
+                      <div
+                        class="left"
+                      >
+                        <span
+                          class="created-by"
+                        >
+                          Chinmay Sarasvati
+                        </span>
+                        <span
+                          class="sc-EHOje BThVl tick"
+                        />
+                        <time
+                          class="created-at"
+                        >
+                          11 AM
+                        </time>
+                      </div>
+                      <div
+                        class="right"
+                      >
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-green badge-pill"
+                        >
+                          Demo
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-blue badge-pill"
+                        >
+                          Meeting
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-purple badge-pill"
+                        >
+                          Chil
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-red badge-pill"
+                        >
+                          Abcd
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test how "ToDoListPage" is render it should match it's snapshot 1`] = `
+<div
+  class="sc-dnqmqq cZVsQj"
+>
+  <div
+    class="upper-part"
+  />
+  <div
+    class="body"
+  >
+    <div
+      class="sc-htpNat hqmgw"
+    >
+      <h3>
+        My Tasks
+      </h3>
+      <div
+        class="right"
+      >
+        <div
+          class="sc-bwzfXH SfLdw btn-group"
+          role="group"
+        >
+          <button
+            class="sc-bdVaJa fiYuhs btn search-btn"
+          >
+            <i
+              class="fas fa-search"
+            />
+          </button>
+          <button
+            class="sc-bdVaJa fiYuhs btn export-btn"
+          >
+            <i
+              class="fas fa-file-upload"
+            />
+          </button>
+          <button
+            class="sc-bdVaJa fiYuhs btn share-btn"
+          >
+            <i
+              class="fas fa-share-square"
+            />
+          </button>
+        </div>
+        <button
+          class="sc-bdVaJa iHgvgu btn undefined"
+        >
+          New Task
+        </button>
+      </div>
+    </div>
+    <div
+      class="sc-htoDjs dzOPHb"
+    >
+      <ul
+        class="nav nav-tabs"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            class="active nav-link"
+          >
+            Work
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+          >
+            Personal
+          </a>
+        </li>
+      </ul>
+      <div
+        class="tab-content"
+      >
+        <div
+          class="tab-pane active"
+        >
+          <div
+            class="sc-gzVnrw dpQKOr"
+          >
+            <span>
+              Due Today (
+              <span
+                class="due-today-counter"
+              >
+                2
+              </span>
+              )
+            </span>
+            <span
+              class="close-day"
+            >
+              Close Today (
+              <span
+                class="close-today-counter"
+              >
+                3
+              </span>
+              )
+            </span>
+          </div>
+          <table
+            class="sc-bZQynM dpqqRZ table"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="sc-ifAKCX fLicRB"
+                >
+                  <span
+                    class="sc-EHOje BThVl"
+                  />
+                  <div
+                    class="custom-control custom-checkbox"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="1"
+                      type="checkbox"
+                      value=""
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="1"
+                    />
+                  </div>
+                  <div
+                    class="detail-info"
+                  >
+                    <h3
+                      class="title"
+                    >
+                      Send site plans and building floor plan brochure
+                    </h3>
+                    <div
+                      class="created-info"
+                    >
+                      <div
+                        class="left"
+                      >
+                        <span
+                          class="created-by"
+                        >
+                          Chinmay Sarasvati
+                        </span>
+                        <span
+                          class="sc-EHOje BThVl tick"
+                        />
+                        <time
+                          class="created-at"
+                        >
+                          11 AM
+                        </time>
+                      </div>
+                      <div
+                        class="right"
+                      >
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-green badge-pill"
+                        >
+                          Demo
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-blue badge-pill"
+                        >
+                          Meeting
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-purple badge-pill"
+                        >
+                          Chil
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-red badge-pill"
+                        >
+                          Abcd
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="sc-ifAKCX fLicRB"
+                >
+                  <span
+                    class="sc-EHOje BThVl"
+                  />
+                  <div
+                    class="custom-control custom-checkbox"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="2"
+                      type="checkbox"
+                      value=""
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="2"
+                    />
+                  </div>
+                  <div
+                    class="detail-info"
+                  >
+                    <h3
+                      class="title"
+                    >
+                      Send site plans and building floor plan brochure
+                    </h3>
+                    <div
+                      class="created-info"
+                    >
+                      <div
+                        class="left"
+                      >
+                        <span
+                          class="created-by"
+                        >
+                          Chinmay Sarasvati
+                        </span>
+                        <span
+                          class="sc-EHOje BThVl tick"
+                        />
+                        <time
+                          class="created-at"
+                        >
+                          11 AM
+                        </time>
+                      </div>
+                      <div
+                        class="right"
+                      >
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-green badge-pill"
+                        >
+                          Demo
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-blue badge-pill"
+                        >
+                          Meeting
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-purple badge-pill"
+                        >
+                          Chil
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-red badge-pill"
+                        >
+                          Abcd
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="sc-ifAKCX fLicRB"
+                >
+                  <span
+                    class="sc-EHOje BThVl"
+                  />
+                  <div
+                    class="custom-control custom-checkbox"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="3"
+                      type="checkbox"
+                      value=""
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="3"
+                    />
+                  </div>
+                  <div
+                    class="detail-info"
+                  >
+                    <h3
+                      class="title"
+                    >
+                      Send site plans and building floor plan brochure
+                    </h3>
+                    <div
+                      class="created-info"
+                    >
+                      <div
+                        class="left"
+                      >
+                        <span
+                          class="created-by"
+                        >
+                          Chinmay Sarasvati
+                        </span>
+                        <span
+                          class="sc-EHOje BThVl tick"
+                        />
+                        <time
+                          class="created-at"
+                        >
+                          11 AM
+                        </time>
+                      </div>
+                      <div
+                        class="right"
+                      >
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-green badge-pill"
+                        >
+                          Demo
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-blue badge-pill"
+                        >
+                          Meeting
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-purple badge-pill"
+                        >
+                          Chil
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-red badge-pill"
+                        >
+                          Abcd
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="sc-ifAKCX fLicRB"
+                >
+                  <span
+                    class="sc-EHOje BThVl"
+                  />
+                  <div
+                    class="custom-control custom-checkbox"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="4"
+                      type="checkbox"
+                      value=""
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="4"
+                    />
+                  </div>
+                  <div
+                    class="detail-info"
+                  >
+                    <h3
+                      class="title"
+                    >
+                      Send site plans and building floor plan brochure
+                    </h3>
+                    <div
+                      class="created-info"
+                    >
+                      <div
+                        class="left"
+                      >
+                        <span
+                          class="created-by"
+                        >
+                          Chinmay Sarasvati
+                        </span>
+                        <span
+                          class="sc-EHOje BThVl tick"
+                        />
+                        <time
+                          class="created-at"
+                        >
+                          11 AM
+                        </time>
+                      </div>
+                      <div
+                        class="right"
+                      >
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-green badge-pill"
+                        >
+                          Demo
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-blue badge-pill"
+                        >
+                          Meeting
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-purple badge-pill"
+                        >
+                          Chil
+                        </span>
+                        <span
+                          class="sc-bxivhb jLEuZY badge badge-red badge-pill"
+                        >
+                          Abcd
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
