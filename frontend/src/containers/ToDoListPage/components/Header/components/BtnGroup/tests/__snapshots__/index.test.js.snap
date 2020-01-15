@@ -8,17 +8,23 @@ exports[`test how "BtnGroup" is rendered it should match it's snapshot 1`] = `
   <button
     class="sc-bdVaJa fiYuhs btn search-btn"
   >
-    Search
+    <i
+      class="fas fa-search"
+    />
   </button>
   <button
     class="sc-bdVaJa fiYuhs btn export-btn"
   >
-    Export
+    <i
+      class="fas fa-file-upload"
+    />
   </button>
   <button
     class="sc-bdVaJa fiYuhs btn share-btn"
   >
-    Share
+    <i
+      class="fas fa-share-square"
+    />
   </button>
 </div>
 `;

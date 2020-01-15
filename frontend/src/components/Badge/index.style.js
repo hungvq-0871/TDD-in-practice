@@ -35,21 +35,21 @@ const BadgeStyle = styled(({ ...rest }) => <BtBadge pill {...rest} />)`
 })};
     color: ${theme.white};
 
-    // &.green {
-    //   background-color: ${theme.green2};
-    // }
+    &.green {
+      background-color: ${theme.green2};
+    }
 
-    // &.purple {
-    //   background-color: ${theme.purple1};
-    // }
+    &.purple {
+      background-color: ${theme.purple1};
+    }
 
-    // &.red {
-    //   background-color: ${theme.pink1}
-    // }
+    &.red {
+      background-color: ${theme.pink1}
+    }
 
-    // &.blue {
-    //   background-color: ${theme.blue3}
-    // }
+    &.blue {
+      background-color: ${theme.blue3}
+    }
   `)}
 `;
 

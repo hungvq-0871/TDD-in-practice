@@ -7,9 +7,15 @@ import BtnGroupStyle from './index.style'
 function BtnGroup({ onSearchClick, onExportClick, onShareClick, ...rest }) {
   return (
     <BtnGroupStyle {...rest}>
-      <Button className="search-btn" onClick={onSearchClick}>Search</Button>
-      <Button className="export-btn" onClick={onExportClick}>Export</Button>
-      <Button className="share-btn" onClick={onShareClick}>Share</Button>
+      <Button className="search-btn" onClick={onSearchClick}>
+        <i className="fas fa-search"></i>
+      </Button>
+      <Button className="export-btn" onClick={onExportClick}>
+        <i className="fas fa-file-upload"></i>
+      </Button>
+      <Button className="share-btn" onClick={onShareClick}>
+        <i className="fas fa-share-square"></i>
+      </Button>
     </BtnGroupStyle>
   )
 }
